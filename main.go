@@ -7,5 +7,5 @@ import (
 )
 
 func main() {
-	_, _ = fmt.Fprintln(colorable.NewColorableStdout(), "\u001b[31mHello World\u001b[0m")
+	_, _ = fmt.Fprintln(colorable.NewColorableStdout(), "\u001b[31mHello World / Olá Mundo\u001b[0m")
 }
